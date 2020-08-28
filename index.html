@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="container" id="contact-form" method="POST" action="contact-form-handler.php">
+        <h2>Contact Us</h2>
+ 
+        <div class="row">
+            <div class="col">
+                <div class="inputBox">
+                    <input type="text" name="First Name" required >
+                    <span class="text">First Name</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+  
+            <div class="col">
+                <div class="inputBox">
+                    <input type="text" name="Last Name" required >
+                    <span class="text">Last Name</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+        </div>   
+        <div class="row">
+            <div class="col">
+                <div class="inputBox">
+                    <input type="email" name="Email" required >
+                    <span class="text">Email</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="inputBox">
+                    <input type="number" name="Mobile" required >
+                    <span class="text">Mobile</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+          
+        </div>    
+        <div class="row">
+            <div class="col">
+                <div class="inputBox textarea">
+                    <input type="text" name="Message" required id="textarea" >
+                    <span class="text">Type Your Message Here.....</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+        </div>
+           
+            <div class="row">
+                <div class="col" >
+                    <input type="submit" Value="send"> 
+                </div>
+            </div>   
+        </form>
+</body>
+</html>
